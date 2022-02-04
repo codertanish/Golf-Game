@@ -44,7 +44,7 @@ function my_keydown(e)
 {
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
-	if((ball_x==hole_x)&&(ball_y==hole_y)) {
+	if((ball_x==800)&&(ball_y==400)) {
 		canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML = "You Have Hit The Goal!!!";
 		document.getElementById("myCanvas").style.borderColor = "red";
